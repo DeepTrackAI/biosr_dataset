@@ -6,15 +6,15 @@ This DeepTrackAI repository provides a preprocessed part of the **BioSR** datase
 
 The original dataset consists of paired low-resolution (LR) and high-resolution (HR) fluorescence microscopy images for training and benchmarking super-resolution reconstruction methods, covering four biology structures (Clatrin Coated Pits, Endoplasmatic Reticulum, Microtubules, F-actin), nine signal levels (15-600 average photon count), and two upscaling-factors (linear SIM and non-linear SIM).
 
-This repo only includes the Microtubules folder and the images in this repository have been cropped into 128 × 128 pixel patches, saved as 32-bit grayscale TIF files and organized into training/validate/test splits to be directly usable in deep learning workflows, while preserving the original content and licensing terms.
+This repo only includes the Microtubules folder and the images in this repository have been cropped into 128 × 128 pixel patches, saved as 32-bit grayscale TIFF files, and organized into training/validate/test splits to be directly usable in deep learning workflows, while preserving the original content and licensing terms.
 
 ### Summary
-- **Number of Image Pairs**:  
+- **Number of images**:  
   - Training: 41,040 pairs
   - Validation: 2,160 pairs  
   - Test: 150 HR images × 9 LR signal levels (1,350 LR images total). Each subfolder corresponds to a different signal-to-noise level, reflecting increasing average photon counts (15–600 photons).
-- **Image Size**: 128 × 128 pixels  
-- **Format**: 32-bit grayscale TIF images  
+- **Image size**: 128 × 128 pixels  
+- **Image format**: 32-bit grayscale TIFF 
 
 ---
 
