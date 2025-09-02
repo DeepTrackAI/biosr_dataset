@@ -36,19 +36,19 @@ If you use this dataset in your research, please follow the licensing requiremen
 /biosr_dataset
 └── BioSR/
     └── Microtubules/
-        ├── training_wf/      # Low-resolution training images (TIF)
+        ├── training_wf/      # Low-resolution training images
         │   ├── 00000001.tif
         │   ├── 00000002.tif
         │   └── ...
-        ├── training_gt/      # High-resolution training images (TIF)
+        ├── training_gt/      # High-resolution training images
         │   ├── 00000001.tif
         │   ├── 00000002.tif
         │   └── ...
-        ├── validate_wf/      # Low-resolution validation images (TIF)
+        ├── validate_wf/      # Low-resolution validation images
         │   ├── 00000001.tif
         │   ├── 00000002.tif
         │   └── ...
-        ├── validate_gt/      # High-resolution validation images (TIF)
+        ├── validate_gt/      # High-resolution validation images
         │   ├── 00000001.tif
         │   ├── 00000002.tif
         │   └── ...
@@ -63,11 +63,13 @@ If you use this dataset in your research, please follow the licensing requiremen
         │   │   └── ...
         │   ├── ...
         │   └── level_09/     # Highest photon count (~600), highest SNR
-        └── test_gt/          # High-resolution test images (TIF)
+        └── test_gt/          # High-resolution test images
             ├── 001.tif
             ├── 002.tif
             └── ...
 ```
+
+Each filename is a sequential numerical identifier. In the test set, subfolders correspond to different signal levels (photon counts), with level_01 being the noisiest and level_09 the cleanest.
 
 ---
 
