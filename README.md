@@ -2,7 +2,7 @@
 
 ## Overview
 
-This DeepTrackAI repository provides a preprocessed part of the **BioSR** dataset, available from [figshare (DOI: 10.6084/m9.figshare.13264793.v9)](https://doi.org/10.6084/m9.figshare.13264793.v9) and originally published by [Chang Qiao et al.,  Nature Methods, 2021](https://doi.org/10.1038/s41592-020-01048-5). 
+This DeepTrackAI repository provides a preprocessed part of the **BioSR** dataset, available from [figshare (DOI: 10.6084/m9.figshare.13264793.v9)](https://doi.org/10.6084/m9.figshare.13264793.v9) and originally published by [Chang Qiao et al., Nature Methods, 2021](https://doi.org/10.1038/s41592-020-01048-5). 
 
 The original dataset consists of paired low-resolution (LR) and high-resolution (HR) fluorescence microscopy images for training and benchmarking super-resolution reconstruction methods, covering four biology structures (Clatrin Coated Pits, Endoplasmatic Reticulum, Microtubules, F-actin), nine signal levels (15-600 average photon count), and two upscaling-factors (linear SIM and non-linear SIM).
 
@@ -23,7 +23,7 @@ This repo only includes the Microtubules folder and the images in this repositor
 - **Title**: BioSR: a biological image dataset for super-resolution microscopy  
 - **Authors**: Chang Qiao and Di Li
 - **Source**: [figshare (DOI: 10.6084/m9.figshare.13264793.v9)](https://doi.org/10.6084/m9.figshare.13264793.v9)  
-- **Reference**: Qiao C, Li Y, Qu J, et al. *Nature Methods* 18: 194–202 (2021). [DOI: 10.1038/s41592-020-01048-5](https://doi.org/10.1038/s41592-020-01048-5)  
+- **Reference article**: Qiao C, Li Y, Qu J, et al. *Nature Methods* 18: 194–202 (2021). [DOI: 10.1038/s41592-020-01048-5](https://doi.org/10.1038/s41592-020-01048-5)  
 - **License**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 If you use this dataset in your research, please follow the licensing requirements and properly attribute the original authors.
@@ -85,15 +85,13 @@ cd biosr_dataset
 
 ## Attribution
 
-This replication dataset is based on the original BIOSR dataset. When using this replication, please cite both the dataset and the original paper.
+If you use this dataset, please cite both the BIOSR dataset and the reference article.
 
 ### Cite the dataset:
-
-Qiao, Chang; Li, Di. *BioSR: a biological image dataset for super-resolution microscopy.* (2020)
-[https://doi.org/10.6084/m9.figshare.13264793.v9](https://doi.org/10.6084/m9.figshare.13264793.v9)
+Qiao, Chang; Li, Di. *BioSR: a biological image dataset for super-resolution microscopy.* figshare. Dataset (2020). [https://doi.org/10.6084/m9.figshare.13264793.v9](https://doi.org/10.6084/m9.figshare.13264793.v9)
 
 ```bibtex
-@article{Qiao2020,
+@misc{qiao2020biosr,
 author = "Chang Qiao and Di Li",
 title = "{BioSR: a biological image dataset for super-resolution microscopy}",
 year = "2020",
@@ -103,12 +101,11 @@ doi = "10.6084/m9.figshare.13264793.v9"
 }
 ```
 
-### Cite the original paper:
-Qiao C, Li Y, Qu J, et al. *Evaluation and development of deep neural networks for image super-resolution in optical microscopy.* Nature Methods, 18: 194–202 (2021).  
-[https://doi.org/10.1038/s41592-020-01048-5](https://doi.org/10.1038/s41592-020-01048-5)
+### Cite the reference article:
+Qiao C, Li Y, Qu J, et al. *Evaluation and development of deep neural networks for image super-resolution in optical microscopy.* Nature Methods, 18: 194–202 (2021). [DOI: 10.1038/s41592-020-01048-5](https://doi.org/10.1038/s41592-020-01048-5)
 
 ```bibtex
-@article{qiao2021biosr,
+@article{qiao2021eval,
   title={Evaluation and development of deep neural networks for image super-resolution in optical microscopy},
   author={Qiao, Chang and Li, Yuxiang and Qu, Junle and others},
   journal={Nature Methods},
@@ -123,6 +120,5 @@ Qiao C, Li Y, Qu J, et al. *Evaluation and development of deep neural networks f
 ---
 
 ## License
-
-This dataset is shared under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** License, following the original licensing terms.
+This replication dataset is shared under the [Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/), consistent with the original licensing terms.
 
