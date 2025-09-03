@@ -102,12 +102,12 @@ doi = "10.6084/m9.figshare.13264793.v9"
 ```
 
 ### Cite the reference article:
-Qiao C, Li Y, Qu J, et al. *Evaluation and development of deep neural networks for image super-resolution in optical microscopy.* Nature Methods, 18: 194–202 (2021). [DOI: 10.1038/s41592-020-01048-5](https://doi.org/10.1038/s41592-020-01048-5)
+Qiao C et al. *Evaluation and development of deep neural networks for image super-resolution in optical microscopy.* Nature Methods, 18: 194–202 (2021). [DOI: 10.1038/s41592-020-01048-5](https://doi.org/10.1038/s41592-020-01048-5)
 
 ```bibtex
 @article{qiao2021eval,
   title={Evaluation and development of deep neural networks for image super-resolution in optical microscopy},
-  author={Qiao, Chang and Li, Yuxiang and Qu, Junle and others},
+  author={Qiao, Chang and Li, Di and Guo, Yuting and Liu, Chong and Jiang, Tao and Dai, Qionghai and Li, Dong},
   journal={Nature Methods},
   volume={18},
   pages={194--202},
