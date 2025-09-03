@@ -88,7 +88,7 @@ cd biosr_dataset
 If you use this dataset, please cite both the BIOSR dataset and the reference article.
 
 ### Cite the dataset:
-Qiao, Chang; Li, Di. *BioSR: a biological image dataset for super-resolution microscopy.* figshare. Dataset (2020). [https://doi.org/10.6084/m9.figshare.13264793.v9](https://doi.org/10.6084/m9.figshare.13264793.v9)
+Qiao, Chang; Li, Di. *BioSR: a biological image dataset for super-resolution microscopy.* figshare. Dataset (2020). [DOI: 10.6084/m9.figshare.13264793.v9](https://doi.org/10.6084/m9.figshare.13264793.v9)
 
 ```bibtex
 @misc{qiao2020biosr,
